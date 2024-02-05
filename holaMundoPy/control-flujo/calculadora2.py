@@ -11,7 +11,7 @@ resultado = ""
 
 
 while True:
-    if not resultado:
+    if not resultado:  # si resultado es vacío
         resultado = input("Ingrese un número: ")
         if resultado.lower() == "salir":
             break
